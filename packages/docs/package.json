@@ -7,6 +7,7 @@
   "scripts": {
     "build-vite": "tsc && vite build",
     "build": "storybook build",
+    "deploy-storybook": "storybook-to-ghpages",
     "dev": "storybook dev -p 6006"
   },
   "dependencies": {
@@ -20,14 +21,15 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@storybook/addon-a11y": "^6.5.12",
     "@storybook/addon-essentials": "^7.6.6",
     "@storybook/addon-interactions": "^7.6.6",
     "@storybook/addon-links": "^7.6.6",
     "@storybook/addon-onboarding": "^1.0.10",
-    "@storybook/addon-a11y": "^6.5.12",
     "@storybook/blocks": "^7.6.6",
     "@storybook/react": "^7.6.6",
     "@storybook/react-vite": "^7.6.6",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/test": "^7.6.6",
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
