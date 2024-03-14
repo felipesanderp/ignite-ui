@@ -1,7 +1,7 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@felipesanderp-ignite-ui/docs",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "license": "MIT",
   "scripts": {
@@ -11,10 +11,10 @@
     "dev": "storybook dev -p 6006"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@felipesanderp-ignite-ui/eslint-config": "*",
+    "@felipesanderp-ignite-ui/react": "*",
+    "@felipesanderp-ignite-ui/tokens": "*",
+    "@felipesanderp-ignite-ui/ts-config": "*",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
     "react": "^18.2.0",
