@@ -9,7 +9,7 @@ import {
   ToastViewPort,
 } from './styles'
 
-export type ToastProps = ComponentProps<typeof ToastRoot> & {
+export interface ToastProps extends ComponentProps<typeof ToastRoot> {
   title: string
   description?: string
 }

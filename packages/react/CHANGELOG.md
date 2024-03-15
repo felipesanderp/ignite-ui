@@ -1,5 +1,11 @@
 # @felipesanderp-ignite-ui/react
 
+## 1.2.0
+
+### Minor Changes
+
+- Add tost and tooltip components
+
 ## 1.1.0
 
 ### Minor Changes
